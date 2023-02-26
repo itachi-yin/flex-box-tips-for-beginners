@@ -1,0 +1,33 @@
+revision and topic covered.
+1 - flex direction, row row-rev , coloumn coloumn-row.
+
+2 - flex-wrap , it wraps the child according to the width given (it wraps downwards(cross-axis)).
+
+#flex-wrap works on cross axis.
+
+3 - if you give height to the box-wrapper(the parent) then the child will also takes the same height as the parent.(to solve it give child their own height).
+
+4 - justify-content flows in main axis, align-items flows in cross axis.
+# - when we give height to flex container, flex-items also take the same height as their parent, to fix that, you can use - align-items: flex-start;
+
+5 - shortcut to write 2 properties (flex-direction and flex-wrap) = flex-flow: direction,wrap;
+
+
+6 - ########## flex-items properties ###############
+
+7 - align-self, justify-self - are the properties to self align in their respective axises.
+like align-self bypasses align-items and align the item independently.
+
+8 - flex property = order, which changes the virtual order of items.
+
+9 - flex-basis - its the initial lenght which starts from main axis.
+
+10 - flex-grow - we pass integer value here, it actually helps to cover remaining space.(if we set value 1 then it will distribute the space equally to all the items).
+# 
+
+11 - flex-shrink - as the name suggest , if given to an item that item will shrink according to the integer value, if item a has 3 value and item b has 1 and items c has 2 value, it means item a will give up most space for other items followed by item c , item b will shrink the least.
+
+
+12 - flex property in which we can write 3 properties. first , flex-grow then flex-shrink and then flex-basis. all three with one property!
+
+
